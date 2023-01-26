@@ -1,7 +1,7 @@
 import axios from "axios";
 import queryString from "query-string";
 
-const baseUrl = "https://scrollit-kanban-backend.vercel.app/app/v1/";
+const baseUrl = "https://scrollit-kanban-backend.vercel.app/api/v1/";
 const getToken = () => localStorage.getItem("token");
 
 const axiosClient = axios.create({
